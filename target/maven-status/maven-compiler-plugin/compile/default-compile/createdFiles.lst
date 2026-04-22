@@ -1,0 +1,8 @@
+com\project6\drivers\DriverSingleton.class
+com\project6\drivers\strategies\DriverStrategyImplementor.class
+com\project6\drivers\strategies\Chrome.class
+com\project6\utills\Constans.class
+com\project6\drivers\strategies\DriverStrategies.class
+com\project6\drivers\strategies\Firefox.class
+com\project6\pages\Login.class
+com\project6\utills\Utills.class
