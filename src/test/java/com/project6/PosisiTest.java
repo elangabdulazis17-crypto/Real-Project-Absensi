@@ -73,7 +73,7 @@ public PosisiTest() {
     }
     @Then("User klik tombol delete pada data posisi")
     public void user_klik_tombol_delete_pada_data_posisi() {
-        try { Thread.sleep(5000); } catch (InterruptedException e) {}
+        try { Thread.sleep(3000); } catch (InterruptedException e) {}
         posisi.ClickButtonDeleteDivisi();
         posisi.ClickButtonDeleteConfirmDivisi();
     }
@@ -83,7 +83,7 @@ public PosisiTest() {
     }
     @And("User Klik Button Simpan Posisi")
     public void user_klik_button_simpan() {
-        try { Thread.sleep(10000); } catch (InterruptedException e) {}
+        try { Thread.sleep(5000); } catch (InterruptedException e) {}
         posisi.BtnTambahPosisi();
     }
     @Then("User Gagal Menambahkan Posisi dengan nama {string} dan dropdown {string}")

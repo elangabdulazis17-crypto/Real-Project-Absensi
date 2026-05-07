@@ -1,0 +1,16 @@
+Feature: Search name User monitoring
+
+  Scenario: Search name user monitoring by name
+    # 1. Login dulu supaya menu muncul
+    Given the user is on the login page
+    When the user enters valid username and password
+    And clicks the login button
+    
+    # 2. Masuk ke halaman User
+    And user click menu management
+    And user click user monitoring menu
+    
+    # 3. Baru lakukan pencarian (Search)
+    And user input field search name monitoring "Gatuso"
+    And user click search monitoring button
+    Then user should see search monitoring result with name "Gatuso"

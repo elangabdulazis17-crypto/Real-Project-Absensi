@@ -72,7 +72,6 @@ public class DivisiTest {
     @When("User search divisi dengan nama {string}")
     public void user_search_divisi_dengan_nama(String nama) {
         divisi.refreshPageDivisi();
-        try { Thread.sleep(5000); } catch (InterruptedException e) {}
         divisi.setInputSearchDivisi(nama);
         try { Thread.sleep(5000); } catch (InterruptedException e) {}
         divisi.ClickButtonSearchDivisi();
@@ -80,14 +79,7 @@ public class DivisiTest {
     @And("User klik tombol more vertical pada data divisi")
     public void user_klik_tombol_more_vertical_pada_data_divisi() {
         // Melakukan refresh adalah cara paling ampuh untuk mengatasi Stale Element di awal skenario
-        driver.navigate().refresh();
-        try { Thread.sleep(2000); } catch (InterruptedException e) {}
-        
-        divisi.setInputSearchDivisi("IT ASP");
         try { Thread.sleep(3000); } catch (Exception e) {}
-        divisi.ClickButtonSearchDivisi();
-        
-        
         divisi.ClickButtonMoreVerticalDivisi();
     }
     @And("User klik tombol edit pada data divisi")
