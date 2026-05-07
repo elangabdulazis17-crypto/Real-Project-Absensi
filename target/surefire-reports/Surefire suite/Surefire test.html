@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Surefire test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>4/3/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Apr 22 22:20:23 WIB 2026</td>
+<td>Started on:</td><td>Wed May 06 22:22:10 WIB 2026</td>
 </tr>
-<tr><td>Total time:</td><td>9 seconds (9655 ms)</td>
+<tr><td>Total time:</td><td>196 seconds (196019 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,183 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.project6.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.project6.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Delete Divisi", "Manage Divisi"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[local-name()=&apos;svg&apos; and contains(@class, &apos;feather-more-vertical&apos;)]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ac8a884f-0dac-428b-a411-99c4121ea085, findElement {using=xpath, value=//*[local-name()=&apos;svg&apos; and contains(@class, &apos;feather-more-vertical&apos;)]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 150.0.1, moz:accessibilityChecks: false, moz:buildID: 20260427013024, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15140, moz:profile: C:\Users\elang\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: ac8a884f-0dac-428b-a411-99c4121ea085
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:427)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
+	at com.project6.pages.Divisi.ClickButtonMoreVerticalDivisi(Divisi.java:92)
+	at com.project6.DivisiTest.user_klik_tombol_more_vertical_pada_data_divisi_untuk_menghapus(DivisiTest.java:151)
+	at ✽.User klik tombol more vertical pada data divisi untuk menghapus(file:///C:/Users/elang/Real-Project-Absensi/src/main/java/com/project6/features/03Divisi.feature:21)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1568159144", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1568159144'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[local-name()=&apos;svg&apos; and contains(@class, &apos;feather-more-vertical&apos;)]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ac8a884f-0dac-428b-a411-99c4121ea085, findElement {using=xpath, value=//*[local-name()=&apos;svg&apos; and contains(@class, &apos;feather-more-vertical&apos;)]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 150.0.1, moz:accessibilityChecks: false, moz:buildID: 20260427013024, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15140, moz:profile: C:\Users\elang\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: ac8a884f-0dac-428b-a411-99c4121ea085
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:427)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
+	at com.project6.pages.Divisi.ClickButtonMoreVerticalDivisi(Divisi.java:92)
+	at com.project6.DivisiTest.user_klik_tombol_more_vertical_pada_data_divisi_untuk_menghapus(DivisiTest.java:151)
+	at ✽.User klik tombol more vertical pada data divisi untuk menghapus(file:///C:/Users/elang/Real-Project-Absensi/src/main/java/com/project6/features/03Divisi.feature:21)
+</pre></div></td>
+<td>16</td>
+<td>com.project6.TestRunner@214b199c</td></tr>
+<tr>
+<td title='com.project6.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.project6.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Edit Divisi Kosongkan", "Manage Divisi"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[local-name()=&apos;svg&apos; and contains(@class, &apos;feather-more-vertical&apos;)]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ac8a884f-0dac-428b-a411-99c4121ea085, findElement {using=xpath, value=//*[local-name()=&apos;svg&apos; and contains(@class, &apos;feather-more-vertical&apos;)]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 150.0.1, moz:accessibilityChecks: false, moz:buildID: 20260427013024, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15140, moz:profile: C:\Users\elang\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: ac8a884f-0dac-428b-a411-99c4121ea085
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:427)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
+	at com.project6.pages.Divisi.ClickButtonMoreVerticalDivisi(Divisi.java:92)
+	at com.project6.DivisiTest.user_klik_tombol_more_vertical_pada_data_divisi(DivisiTest.java:91)
+	at ✽.User klik tombol more vertical pada data divisi(file:///C:/Users/elang/Real-Project-Absensi/src/main/java/com/project6/features/03Divisi.feature:15)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2086767061", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2086767061'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[local-name()=&apos;svg&apos; and contains(@class, &apos;feather-more-vertical&apos;)]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ac8a884f-0dac-428b-a411-99c4121ea085, findElement {using=xpath, value=//*[local-name()=&apos;svg&apos; and contains(@class, &apos;feather-more-vertical&apos;)]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 150.0.1, moz:accessibilityChecks: false, moz:buildID: 20260427013024, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15140, moz:profile: C:\Users\elang\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: ac8a884f-0dac-428b-a411-99c4121ea085
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:427)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
+	at com.project6.pages.Divisi.ClickButtonMoreVerticalDivisi(Divisi.java:92)
+	at com.project6.DivisiTest.user_klik_tombol_more_vertical_pada_data_divisi(DivisiTest.java:91)
+	at ✽.User klik tombol more vertical pada data divisi(file:///C:/Users/elang/Real-Project-Absensi/src/main/java/com/project6/features/03Divisi.feature:15)
+</pre></div></td>
+<td>29</td>
+<td>com.project6.TestRunner@214b199c</td></tr>
+<tr>
+<td title='com.project6.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.project6.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Edit Divisi", "Manage Divisi"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[local-name()=&apos;svg&apos; and contains(@class, &apos;feather-more-vertical&apos;)]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ac8a884f-0dac-428b-a411-99c4121ea085, findElement {using=xpath, value=//*[local-name()=&apos;svg&apos; and contains(@class, &apos;feather-more-vertical&apos;)]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 150.0.1, moz:accessibilityChecks: false, moz:buildID: 20260427013024, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15140, moz:profile: C:\Users\elang\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: ac8a884f-0dac-428b-a411-99c4121ea085
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:427)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
+	at com.project6.pages.Divisi.ClickButtonMoreVerticalDivisi(Divisi.java:92)
+	at com.project6.DivisiTest.user_klik_tombol_more_vertical_pada_data_divisi(DivisiTest.java:91)
+	at ✽.User klik tombol more vertical pada data divisi(file:///C:/Users/elang/Real-Project-Absensi/src/main/java/com/project6/features/03Divisi.feature:9)
+</pre></div><a href='#' onClick='toggleBox("stack-trace169916747", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace169916747'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[local-name()=&apos;svg&apos; and contains(@class, &apos;feather-more-vertical&apos;)]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ac8a884f-0dac-428b-a411-99c4121ea085, findElement {using=xpath, value=//*[local-name()=&apos;svg&apos; and contains(@class, &apos;feather-more-vertical&apos;)]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 150.0.1, moz:accessibilityChecks: false, moz:buildID: 20260427013024, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15140, moz:profile: C:\Users\elang\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: ac8a884f-0dac-428b-a411-99c4121ea085
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:427)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
+	at com.project6.pages.Divisi.ClickButtonMoreVerticalDivisi(Divisi.java:92)
+	at com.project6.DivisiTest.user_klik_tombol_more_vertical_pada_data_divisi(DivisiTest.java:91)
+	at ✽.User klik tombol more vertical pada data divisi(file:///C:/Users/elang/Real-Project-Absensi/src/main/java/com/project6/features/03Divisi.feature:9)
+</pre></div></td>
+<td>29</td>
+<td>com.project6.TestRunner@214b199c</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,10 +253,25 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.project6.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.project6.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successful login with valid credentials", "SauceDemo Login Functionality"</td>
+<td title='com.project6.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.project6.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Reset Search", "Manage Divisi"</td>
 <td></td>
-<td>7</td>
-<td>com.project6.TestRunner@123f1134</td></tr>
+<td>11</td>
+<td>com.project6.TestRunner@214b199c</td></tr>
+<tr>
+<td title='com.project6.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.project6.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add Divisi Kosongkan", "Manage Divisi"</td>
+<td></td>
+<td>36</td>
+<td>com.project6.TestRunner@214b199c</td></tr>
+<tr>
+<td title='com.project6.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.project6.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Search Divisi", "Manage Divisi"</td>
+<td></td>
+<td>23</td>
+<td>com.project6.TestRunner@214b199c</td></tr>
+<tr>
+<td title='com.project6.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.project6.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add new Divisi", "Manage Divisi"</td>
+<td></td>
+<td>33</td>
+<td>com.project6.TestRunner@214b199c</td></tr>
 </table><p>
 </body>
 </html>

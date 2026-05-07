@@ -51,6 +51,5 @@ public class LoginTest
         String actualTittle = loginPage.getSuksesMessageText();
         String expectedTittle = "Dashboard Menu";
         assert actualTittle.equals(expectedTittle) : "Expected: " + expectedTittle + ", but got: " + actualTittle;
-        
     }
 }

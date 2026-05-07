@@ -1,8 +1,11 @@
-D:\Belajar Automation\kelompok2\src\main\java\com\project6\drivers\DriverSingleton.java
-D:\Belajar Automation\kelompok2\src\main\java\com\project6\utills\Utills.java
-D:\Belajar Automation\kelompok2\src\main\java\com\project6\drivers\strategies\DriverStrategies.java
-D:\Belajar Automation\kelompok2\src\main\java\com\project6\drivers\strategies\Chrome.java
-D:\Belajar Automation\kelompok2\src\main\java\com\project6\drivers\strategies\Firefox.java
-D:\Belajar Automation\kelompok2\src\main\java\com\project6\pages\Login.java
-D:\Belajar Automation\kelompok2\src\main\java\com\project6\drivers\strategies\DriverStrategyImplementor.java
-D:\Belajar Automation\kelompok2\src\main\java\com\project6\utills\Constans.java
+C:\Users\elang\Real-Project-Absensi\src\main\java\com\project6\utills\Constans.java
+C:\Users\elang\Real-Project-Absensi\src\main\java\com\project6\pages\Jabatan.java
+C:\Users\elang\Real-Project-Absensi\src\main\java\com\project6\pages\Divisi.java
+C:\Users\elang\Real-Project-Absensi\src\main\java\com\project6\drivers\strategies\Firefox.java
+C:\Users\elang\Real-Project-Absensi\src\main\java\com\project6\drivers\strategies\DriverStrategyImplementor.java
+C:\Users\elang\Real-Project-Absensi\src\main\java\com\project6\utills\Utills.java
+C:\Users\elang\Real-Project-Absensi\src\main\java\com\project6\drivers\strategies\Chrome.java
+C:\Users\elang\Real-Project-Absensi\src\main\java\com\project6\pages\Login.java
+C:\Users\elang\Real-Project-Absensi\src\main\java\com\project6\drivers\strategies\DriverStrategies.java
+C:\Users\elang\Real-Project-Absensi\src\main\java\com\project6\drivers\DriverSingleton.java
+C:\Users\elang\Real-Project-Absensi\src\main\java\com\project6\pages\Posisi.java
